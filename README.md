@@ -1,7 +1,15 @@
 ﻿# scroll-to-elements
 # **How to Use**
 
-## **Step 1: Create a Scroll Goal ID**
+## **Step 1: Connect the Script File**
+
+First, ensure that you have the `index.js` file available in your project. If not, you can create one. Next, link the script file to your HTML document. Add the following line inside the `<head>` tag of your HTML file:
+
+```html
+<script src="index.js"></script>
+```
+
+## **Step 2: Create a Scroll Goal ID**
 
 Create a unique identifier for your scroll goal by assigning an id to the HTML element you want to scroll to. For example
 
@@ -11,7 +19,7 @@ Create a unique identifier for your scroll goal by assigning an id to the HTML e
 </section>
 ```
 
-## Step 2: Create a Link with href Attribute
+## Step 3: Create a Link with href Attribute
 
 Generate an anchor (```<a>```) element with the href attribute pointing to the previously defined id. This link will act as the trigger for a smooth scroll. For instance:
 
