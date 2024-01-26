@@ -28,3 +28,6 @@ Generate an anchor (```<a>```) element with the href attribute pointing to the p
 ```
 
 **_Feel free to customize the id and link text according to your project requirements._**
+
+**You can check how the library works by visiting the [demo page](https://artemproshkovskiy.github.io/scroll-to-elements/).**
+
