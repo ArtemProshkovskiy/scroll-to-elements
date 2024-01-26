@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Scroll-to-Elements Example</title>
+    <link rel="icon" type="image/x-icon" href="https://avatars.githubusercontent.com/u/115075582?v=4">
+    <style>
+    body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            height: 150vh;
+            background-color: #f4f4f4;
+        }
+
+        section {
+            margin-bottom: 500px;
+            border: 1px solid #ccc;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 15px;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 10px;
+            color: white;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+            transition: color 0.3s; /* Smooth transition for color change during hover */
+        }
+
+        a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #ff7f50; /* Change the color during hover state */
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        button, a {
+            display: block;
+            margin: 20px 0;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        button:hover, a:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Welcome to My Scroll-to-Elements Example</h1>
+
+    <nav>
+        <ul>
+            <li><a href="#section1">Section 1</a></li>
+            <li><a href="#section2">Section 2</a></li>
+            <li><a href="#section3">Section 3</a></li>
+        </ul>
+    </nav>
+
+    <section id="section1">
+        <h2>Section 1</h2>
+        <p>This is the first section of your project.</p>
+        <a href="#section3"> Go to Bottom</a>
+    </section>
+
+    <section id="section2">
+        <h2>Section 2</h2>
+        <p>This is the second section of your project.</p>
+        <img src="https://via.placeholder.com/300" alt="Placeholder Image">
+        <a href="#section1">Back to Top</a>
+    </section>
+
+    <section id="section3">
+        <h2>Section 3</h2>
+        <p>This is the third section of your project.</p>
+        <a href="#section1">Back to Top</a>
+    </section>
+
+    <a href="#section1">Back to Top</a>
+<script src="index.js"></script>
+</body>
+</html>
