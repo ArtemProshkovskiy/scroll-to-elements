@@ -1,18 +1,35 @@
 {
   "name": "scroll-to-elements",
-  "version": "1.0.4",
-  "description": "",
+  "version": "1.0.5",
+  "description": "Scroll-to-elements is a library for smooth scrolling to element",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-      "build": "webpack",
-      "watch": "webpack --watch"
+    "build": "webpack",
+    "watch": "webpack --watch"
   },
+  "homepage": "https://github.com/ArtemProshkovskiy/scroll-to-elements",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ArtemProshkovskiy/scroll-to-elements"
+  },
+  "keywords": [
+    "scroll",
+    "scroll-to",
+    "scrolling",
+    "smooth-scroll",
+    "scroll-behavior",
+    "page-scroll",
+    "scroll-animation",
+    "scroll-to-js",
+    "scroll-to-javascript",
+    "scroll-js-to",
+    "scroll-to-smooth"
+  ],
   "author": "Artem Proshkovkiy",
   "license": "ISC",
   "devDependencies": {
     "webpack": "^5.90.0",
     "webpack-cli": "^5.1.4"
   }
-
 }
