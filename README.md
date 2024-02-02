@@ -1,6 +1,5 @@
 # scroll-to-elements: Explore ease of scrolling to both the top and bottom of the page!
-`
-`## **How to Use**
+### **How to Use?**
 
 ### 1. Connect the Script File:
 
